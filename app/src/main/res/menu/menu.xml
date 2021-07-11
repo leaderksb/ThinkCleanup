@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/todo"
+        android:title="할일"
+        android:icon="@drawable/todo"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/diary"
+        android:title="일기"
+        android:icon="@drawable/book"
+        app:showAsAction="always" />
+</menu>
